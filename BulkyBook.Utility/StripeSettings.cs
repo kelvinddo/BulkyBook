@@ -8,5 +8,6 @@ namespace BulkyBook.Utility
     {
         public string SecretKey { get; set; }
         public string PublishableKey { get; set; }
+        // CHange Stripe settings
     }
 }

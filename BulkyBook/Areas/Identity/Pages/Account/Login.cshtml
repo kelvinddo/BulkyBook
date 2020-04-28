@@ -2,9 +2,12 @@
 @model LoginModel
 
 @{
-    ViewData["Title"] = "Log in";
+    ViewData["Title"] = "Identity Log in";
 }
 
+    <!-- Login Page -->
+    
+    
     <div id="logreg-forms">
 
         <form id="external-account" asp-page="./ExternalLogin" asp-route-returnUrl="@Model.ReturnUrl" method="post" class="form-horizontal">
